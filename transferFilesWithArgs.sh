@@ -28,11 +28,21 @@ function main(){
     if [ $OPCAO -eq 1 ]
     then
         echo "Transferencia Local"
-        local $@
+        if [ $# -eq 5 ]
+        then
+            local $@
+        else
+            echo "numero de argumentos invalido"
+        fi
     elif [ $OPCAO -eq 2 ]
     then
         echo "Transferencia Virtual"
-        virt $@
+        if [ $# -eq 6 ]
+        then
+            virt $@
+        else
+            echo "numero de argumentos invalido"
+        fi
     fi
 }
 
