@@ -12,7 +12,7 @@ function local(){
     
     PATHDESTINY="$5"
 
-    scp $PATHFILE $USERNAME@$IP:/$PATHDESTINY
+    scp /$PATHFILE $USERNAME@$IP:/$PATHDESTINY
 }
 
 function virt(){
