@@ -1,8 +1,0 @@
-#!/bin/bash
-
-if [ -f *.bug ];
-    then
-        echo "há arquviso"
-    else
-        echo "nao há arquviso"
-fi

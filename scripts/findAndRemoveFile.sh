@@ -5,7 +5,6 @@ myarray=(`find ../../../ -name "*.bug"`)
 #an array variable. Otherwise, if find returns no 
 #result ${#myarray[@]} equals 1
 
-
 if [ ${#myarray[@]} -gt 0 ]; then
     find ../../../ -type f -name '*.bug' -exec rm -f {} \;
 else
