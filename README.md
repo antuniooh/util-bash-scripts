@@ -1,20 +1,20 @@
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/antuniooh/canvasGame">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/antuniooh/util-bash-scripts">
 
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/antuniooh/canvasGame">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/antuniooh/util-bash-scripts">
   
-  <a href="https://github.com/antuniooh/canvasGame/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/antuniooh/canvasGame">
+  <a href="https://github.com/antuniooh/util-bash-scripts/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/antuniooh/util-bash-scripts">
   </a>
   
-   <img alt="GitHub" src="https://img.shields.io/github/license/antuniooh/canvasGame">
+   <img alt="GitHub" src="https://img.shields.io/github/license/antuniooh/util-bash-scripts">
 </p>
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/antuniooh/canvasGame">
-    <img src="imagens/logo.png" alt="Logo" width="550">
+  <a href="https://github.com/antuniooh/util-bash-scripts">
+    <img src="https://terminalroot.com.br/assets/img/shell-script/shell-script-logo.jpg" alt="Logo" width="550">
   </a>
 </p>
 
@@ -72,8 +72,9 @@ Some scripts made in bash.
 
 **showAllArgs.sh** - Displays all arguments received by the script. Remembering that an argument is a variable defined along with the script execution.
 
-\showAllArgs.sh <arg1> <arg2> <arg3>
-showAllArgsWithCont.sh - Displays all arguments received by the script, along with a count variable.
+> showAllArgs.sh <arg1> <arg2> <arg3>
+
+**showAllArgsWithCont.sh** - Displays all arguments received by the script, along with a count variable.
 
 **showArgs.sh** - Checks if the script received only two arguments.
 
@@ -83,11 +84,12 @@ showAllArgsWithCont.sh - Displays all arguments received by the script, along wi
 
 Local Transfer
 
-\transferFilesBasedOnNumberArgs.sh <pathFile> <usernameDestiny> <ipDestiny> <pathDestiny>
+> transferFilesBasedOnNumberArgs.sh <pathFile> <usernameDestiny> <ipDestiny> <pathDestiny>
 Virtual Transfer
 
-\transferFilesBasedOnNumberArgs.sh <usernameHost> <ipHost> <pathFile> <usernameDestiny> <ipDestiny> <pathDestiny>
-transferFilesorFolder.sh - The script requests the machine data from the local and remote client to perform the folder or file transfer.
+> transferFilesBasedOnNumberArgs.sh <usernameHost> <ipHost> <pathFile> <usernameDestiny> <ipDestiny> <pathDestiny>
+
+**transferFilesorFolder.sh** - The script requests the machine data from the local and remote client to perform the folder or file transfer.
 
 **transferWithoutExtension.sh** - If the user types "help" as an argument, the script describes the type of arguments it needs to perform the data transfer. There is no need to describe the extension of the file to be uploaded.
 
@@ -100,10 +102,10 @@ transferFilesorFolder.sh - The script requests the machine data from the local a
 ```bash
 
 # Clone the repository
-$ git clone https://github.com/antuniooh/canvasGame.git
+$ git clone https://github.com/antuniooh/util-bash-scripts.git
 
 # Access the project folder in your terminal / cmd
-$ cd canvasGame
+$ cd util-bash-scripts
 
 # Execute script
 $ ./<script>.sh
