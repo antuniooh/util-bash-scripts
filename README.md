@@ -1,71 +1,115 @@
-# Scripts Bash
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/antuniooh/canvasGame">
 
-Alguns códigos de script feitos em bash.
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/antuniooh/canvasGame">
+  
+  <a href="https://github.com/antuniooh/canvasGame/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/antuniooh/canvasGame">
+  </a>
+  
+   <img alt="GitHub" src="https://img.shields.io/github/license/antuniooh/canvasGame">
+</p>
 
-## Funcionalidade
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/antuniooh/canvasGame">
+    <img src="imagens/logo.png" alt="Logo" width="550">
+  </a>
+</p>
 
-**automaticUpdate.sh** - Um script para atuzalização de todos os pacotes da máquina.
+<p align="center">
+  <img alt="Unix" src="https://img.shields.io/badge/Unix-yellow?style=for-the-badge&logo=unix&logoColor=white"/>
+  <img alt="Bash" src="https://img.shields.io/badge/BashScript-orange?style=for-the-badge&logo=bash5&logoColor=white"/>
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-darkblue?style=for-the-badge&logo=linux&logoColor=white"/>
+</p>
 
-**bugChallenge.sh** - Script que realiza uma remoção de arquivos com extensão .bug, o script foi utilizado num challenge que criava arquivos com extensão .bug. 
 
-**contador.sh** - Recebe dois argumentos na execução do script e faz uma contagem do primeiro ao segundo número. 
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#-about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#-documentation">Documentation</a>
+    </li>
+    <li>
+      <a href="#-how-to-run">How To Run</a>
+    </li>
+  </ol>
+</details>
 
-**findAndRemoveFile.sh** - Procura na máquina arquivos de extensão .bug e remove-os. 
 
-**findFile.sh** - Procura na máquina arquivos de extensão .bug e caso exista algum com essa extensão emite a mensagem "Há arquivos". 
+<!-- ABOUT THE PROJECT -->
+## 💻 About The Project
+Some scripts made in bash.
 
-**findUser.sh** - Procura na máquina algum usuário com o nome digitado.
+**automaticUpdate.sh** - A script to update all packages on the machine.
 
-**imparPar.sh** - Recebe um número e informa se ele é impar ou par. 
+**bugChallenge.sh** - Script that removes files with .bug extension, the script was used in a challenge that created files with .bug extension.
 
-**maiorMenor.sh** - Recebe dois números e informa a ordem crescente dos mesmos. 
+**counter.sh** - Takes two arguments on script execution and counts from the first to the second number.
 
-**movedAllBasedOnNamed.sh** - O script move todos os arquivos da pasta acima para a pasta abaixo.  
+**findAndRemoveFile.sh** - Searches the machine for files with .bug extension and removes them.
 
-**onekoFile<x>.sh** - O script habilita o display e executa o aplicativo do oneko. É necessário ter ele instalado na máquina. 
+**findFile.sh** - Searches the machine for files with .bug extension and if there is one with that extension, it issues the message "There are files".
 
-**removeSSH.sh** - Ele remove qualquer conexão ssh que esteja ativa em sua máquina.
+**findUser.sh** - Searches the machine for any user with the entered name.
 
-**seeEachFile.sh** - Exibe cada arquivo da pasta a qual o script está localizado.
+**oddPar.sh** - Receives a number and informs if it is odd or even.
 
-**showAllArgs.sh** - Exibe todos os argumentos recebidos pelo script. Lembrando que um argumento é uma variavel definida junto com a execução do script.
+**majorMenor.sh** - Receives two numbers and informs their ascending order.
 
-```bash
+**movedAllBasedOnNamed.sh** - The script moves all files from the folder above to the folder below.
+
+**onekoFile.sh** - The script enables the display and runs the oneko application. It is necessary to have it installed on the machine.
+
+**removeSSH.sh** - It removes any ssh connections that are active on your machine.
+
+**seeEachFile.sh** - Displays each file in the folder where the script is located.
+
+**showAllArgs.sh** - Displays all arguments received by the script. Remembering that an argument is a variable defined along with the script execution.
+
 \showAllArgs.sh <arg1> <arg2> <arg3>
-```
-**showAllArgsWithCont.sh** - Exibe todos os argumentos recebidos pelo script, juntamente com uma variavel de contagem.
+showAllArgsWithCont.sh - Displays all arguments received by the script, along with a count variable.
 
-**showArgs.sh** - Confere se o script recebeu apenas dois argumentos.
+**showArgs.sh** - Checks if the script received only two arguments.
 
-**transferFiles01.sh** - O script solicita os dados da máquina do cliente local e do remoto para realizar a transferência de pasta ou arquivo.
+**transferFiles01.sh** - The script requests the data from the local and remote client machine to perform the folder or file transfer.
 
-**transferFilesBasedOnNumberArgs.sh** - O script recebe os dados da máquina do cliente local e do remoto para realizar a transferência de pasta ou arquivo por meio de argumentos. De acordo com o número de argumentos é possível definir o tipo de comunicação a ser realizada.
+**transferFilesBasedOnNumberArgs.sh**- The script receives the data from the local and remote client machine to perform the folder or file transfer through arguments. According to the number of arguments, it is possible to define the type of communication to be carried out.
 
-Transferência Local
-```bash
+Local Transfer
+
 \transferFilesBasedOnNumberArgs.sh <pathFile> <usernameDestiny> <ipDestiny> <pathDestiny>
-```
-Transferência Virtual
-```bash
+Virtual Transfer
+
 \transferFilesBasedOnNumberArgs.sh <usernameHost> <ipHost> <pathFile> <usernameDestiny> <ipDestiny> <pathDestiny>
-```
+transferFilesorFolder.sh - The script requests the machine data from the local and remote client to perform the folder or file transfer.
 
-**transferFilesorFolder.sh** - O script solicita os dados da máquina do cliente local e do remoto para realizar a transferência de pasta ou arquivo.
+**transferWithoutExtension.sh** - If the user types "help" as an argument, the script describes the type of arguments it needs to perform the data transfer. There is no need to describe the extension of the file to be uploaded.
 
-**transferWithoutExtension.sh** - Caso o usuário digite "help" como argumento o script descreve o tipo de argumentos que necessita para realizar a transferência de dados. Não há necessidade de descrever a extensão do arquivo a ser enviado.
+**upFiles.sh** - Creates a temporary "TEMP" folder and uploads all files from the local folder to that /TEMP.
 
-**upFiles.sh** - Cria uma pasta temporária "TEMP" e envia todos os arquivos da pasta local para essa /TEMP.
 
-## Execução
-
-A Execução desses scripts é feita do seguinte modo: 
+<!-- HOW TO RUN -->
+## 🚀 How To Run 
 
 ```bash
-./<script>.sh
-```
 
-Caso não ocorra a execução talvez seja necessário criar permissão de execução para o arquivo. Isso é feito do seguinte modo:
+# Clone the repository
+$ git clone https://github.com/antuniooh/canvasGame.git
 
-```bash
-shmod +x ./<script>.sh && ./<script>.sh
+# Access the project folder in your terminal / cmd
+$ cd canvasGame
+
+# Execute script
+$ ./<script>.sh
+
+# If the execution does not occur, it may be necessary to create execute permission for the file. This is done as follows:
+
+$ chmod +x ./<script>.sh && ./<script>.sh
+
 ```
