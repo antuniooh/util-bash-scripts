@@ -72,7 +72,7 @@ Some scripts made in bash.
 
 **showAllArgs.sh** - Displays all arguments received by the script. Remembering that an argument is a variable defined along with the script execution.
 
-> showAllArgs.sh <arg1> <arg2> <arg3>
+> showAllArgs.sh arg1 arg2 arg>
 
 **showAllArgsWithCont.sh** - Displays all arguments received by the script, along with a count variable.
 
@@ -84,10 +84,10 @@ Some scripts made in bash.
 
 Local Transfer
 
-> transferFilesBasedOnNumberArgs.sh <pathFile> <usernameDestiny> <ipDestiny> <pathDestiny>
+> transferFilesBasedOnNumberArgs.sh pathFile usernameDestiny ipDestiny pathDestiny
 Virtual Transfer
 
-> transferFilesBasedOnNumberArgs.sh <usernameHost> <ipHost> <pathFile> <usernameDestiny> <ipDestiny> <pathDestiny>
+> transferFilesBasedOnNumberArgs.sh usernameHost ipHost pathFile usernameDestiny ipDestiny pathDestiny
 
 **transferFilesorFolder.sh** - The script requests the machine data from the local and remote client to perform the folder or file transfer.
 
