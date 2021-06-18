@@ -72,7 +72,7 @@ Some scripts made in bash.
 
 **showAllArgs.sh** - Displays all arguments received by the script. Remembering that an argument is a variable defined along with the script execution.
 
-> showAllArgs.sh arg1 arg2 arg>
+> showAllArgs.sh arg1 arg2 arg
 
 **showAllArgsWithCont.sh** - Displays all arguments received by the script, along with a count variable.
 
@@ -111,7 +111,6 @@ $ cd util-bash-scripts
 $ ./<script>.sh
 
 # If the execution does not occur, it may be necessary to create execute permission for the file. This is done as follows:
-
 $ chmod +x ./<script>.sh && ./<script>.sh
 
 ```
