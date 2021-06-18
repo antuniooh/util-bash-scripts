@@ -33,9 +33,6 @@
       <a href="#-about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#-documentation">Documentation</a>
-    </li>
-    <li>
       <a href="#-how-to-run">How To Run</a>
     </li>
   </ol>
